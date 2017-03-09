@@ -1,0 +1,22 @@
+html,body {
+  background-color:black;
+}
+
+.btn-default {
+  background-color: black;
+  font-weight:bold;
+  color:white;
+  width:70px;
+  font-family:Audiowide, sans-serif;
+  border-radius: 0px;
+  text-align: center;
+  font-size: 18px;
+  margin: 4px 4px;
+  cursor: pointer;
+}
+
+p,h1 {
+  font-family:Audiowide, sans-serif;
+   color: lime;
+ 
+}
