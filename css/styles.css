@@ -2,7 +2,8 @@ html,body {
   background-color:black;
 }
 
-.btn-default {
+
+.btn-default, .btn-defaultW, .btn-defaultP {
   background-color: black;
   font-weight:bold;
   color:white;
@@ -18,5 +19,9 @@ html,body {
 p,h1 {
   font-family:Audiowide, sans-serif;
    color: lime;
- 
+}
+
+.footer {
+  color:gray;
+  font-size:14px;
 }
