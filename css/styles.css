@@ -1,5 +1,14 @@
 html,body {
   background-color:black;
+  padding-top:50px;
+}
+
+.clock {
+  border-style: solid;
+  border-color: gray;
+  border-width: 3px;
+  border-radius: 20px;
+  margin: 50px;
 }
 
 

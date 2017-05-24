@@ -2,55 +2,55 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Spiff Pomodoro Clock</title>
+  <meta charset="UTF-8">
+  <title>Spiff Pomodoro Clock</title>
 
 
-    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
 
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- Copy from codepen from here -->
-    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Copy from codepen from here -->
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
 
 
-    <div class="container-fluid, text-center">
-        <h1 class="text-center"></h1>
-        <div class="row">
-            <!-- Pause timer settings -->
-            <div class="col-md-4">
-                <div id="settingsP">
-                    <p class="section-header">Pause</p>
-                    <p class="btn btn-defaultP" id="pausePlus">+</p>
-                    <p class="mini-display" id="pauseDisplay"></p>
-                    <p class="btn btn-defaultP" id="pauseMinus">-</p>
-                </div>
-            </div>
-            <!-- Countdown timer display -->
-            <div class="col-md-4">
-                <p class="section-header" id="mainHeader">Clock</p>
-                <p class="big-display" id="mainDisplayTime"></p>
-                <p class="btn btn-default" id="goClock">GO</p>
-            </div>
-            <!-- Work timer settings -->
-            <div class="col-md-4">
-                <div id="settingsW">
-                    <p class="section-header">Work</p>
-                    <p class="btn btn-defaultW" id="workPlus">+</p>
-                    <p class="mini-display" id="workDisplay"></p>
-                    <p class="btn btn-defaultW" id="workMinus">-</p>
-                </div>
-            </div>
+  <div class="container-fluid, text-center">
+    <div class="clock">
+      <h1 class="text-center"></h1>
+      <div class="row">
+        <!-- Pause timer settings -->
+        <div class="col-md-4">
+          <div id="settingsP">
+            <p class="section-header">Pause</p>
+            <p class="btn btn-defaultP" id="pausePlus">+</p>
+            <p class="mini-display" id="pauseDisplay"></p>
+            <p class="btn btn-defaultP" id="pauseMinus">-</p>
+          </div>
         </div>
-        </br>
-        </br>
-        <p class="footer">fcc Pomodoro clock project</p>
+        <!-- Countdown timer display -->
+        <div class="col-md-4">
+          <p class="section-header" id="mainHeader">Clock</p>
+          <p class="big-display" id="mainDisplayTime"></p>
+          <p class="btn btn-default" id="goClock">GO</p>
+        </div>
+        <!-- Work timer settings -->
+        <div class="col-md-4">
+          <div id="settingsW">
+            <p class="section-header">Work</p>
+            <p class="btn btn-defaultW" id="workPlus">+</p>
+            <p class="mini-display" id="workDisplay"></p>
+            <p class="btn btn-defaultW" id="workMinus">-</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Copy from codepen to here -->
-    </div>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <p class="footer">fcc Pomodoro clock project</p>
+  </div>
+  <!-- Copy from codepen to here -->
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 
-    <script src="js/scripts.js"></script>
+  <script src="js/scripts.js"></script>
 
-    </body>
+  </body>
 
 </html>
