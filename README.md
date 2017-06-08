@@ -10,4 +10,6 @@ Additional features to implement:
 <li>Add a visible warning for the last 10 seconds of each session.</li>
 </ul>
 
+![Screen Capture](https://github.com/usaspiff/spiff-pomodoro/blob/master/spiff_fcc_pomodoro.gif)
+
 Check it out on CodePen <a href="https://codepen.io/usaspiff/full/Qpwomj/">here</a>.
